@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-type-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-type-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feecalculator-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feecalculator-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/location-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/location-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package-creator-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package-creator-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parking-area-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parking-area-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkinglot-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkinglot-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-finder-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-finder-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-operation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-operation-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tariff-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upper-package-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upper-package-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vehicle-type-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vehicle-type-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

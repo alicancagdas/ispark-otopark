@@ -1,0 +1,17 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  IMAGE_TAG: "latest"
+
+# Build Stage
+build:
+  stage: build
+  services:
+    - docker:dind
+  script:
+    - docker compose up --build
+  only:
+    - end

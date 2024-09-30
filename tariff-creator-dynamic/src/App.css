@@ -1,0 +1,139 @@
+/* app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* app.css */
+
+/* Kart hover animasyonu */
+.animate-card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.animate-card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover animasyonu */
+button:hover {
+  background: linear-gradient(45deg, #c2d4b6, #a1a9bd);
+  transition: background 0.5s ease;
+}
+
+/* FadeIn animasyonu */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.App {
+  background-color: #F5F5F5; /* Light gray */
+  min-height: 100vh;
+}
+
+.navbar-dark {
+  background-color: #1F3C73; /* Deep navy blue */
+}
+
+.nav-link {
+  color: #FFFFFF !important; /* White text for nav items */
+}
+
+.fw-bold {
+  color: #FFC107; /* Bright yellow for the brand name */
+}
+
+.tab-content .bg-white {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-dark {
+  color: #1F3C73 !important; /* Darker navy for text inside tabs */
+}
+/* App.css */
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls .btn-add, .user-actions .btn-login, .user-actions .btn-signup {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.download-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ff4b5c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#treeWrapper {
+  margin-top: 20px;
+  height: 500px;
+}
+/* Same as before with added modal styling */
+.node-details {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  z-index: 1000;
+}
+
+.node-details h3 {
+  margin: 0 0 10px;
+}
+
+.node-details button {
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+global:
+  scrape_interval: 10s  # How frequently to scrape targets by default
+
+scrape_configs:
+  # Scrape configuration for tariff-service
+  - job_name: 'tariff-service'
+    metrics_path: '/actuator/prometheus'  # Assuming Spring Boot exposes metrics at this path
+    static_configs:
+      - targets: ['tariff-service:8080']
+
+  # Scrape configuration for tariff-operation-service
+  - job_name: 'tariff-operation-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['tariff-operation-service:8080']
+
+  # Scrape configuration for package-creator-service
+  - job_name: 'package-creator-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['package-creator-service:8080']
+
+  # Scrape configuration for customer-type-service
+  - job_name: 'customer-type-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['customer-type-service:8080']
+
+  # Scrape configuration for vehicle-type-service
+  - job_name: 'vehicle-type-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['vehicle-type-service:8080']
+
+  # Scrape configuration for parkinglot-service
+  - job_name: 'parkinglot-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['parkinglot-service:8080']
+
+  # Scrape configuration for upper-package-service
+  - job_name: 'upper-package-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['upper-package-service:8080']
+
+  # Scrape configuration for location-service
+  - job_name: 'location-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['location-service:8080']
+
+  # Scrape MySQL metrics (if exposed)
+  - job_name: 'mysql'
+    static_configs:
+      - targets: ['mysql:3306']
